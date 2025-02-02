@@ -61,7 +61,6 @@ ul {
 	margin-block: 0;
 	list-style: url('../img/hand.gif');
 	image-rendering: pixelated;
-	margin-left: 2rem;
 }
 li {
 	margin-bottom: 1.125rem;
@@ -72,7 +71,7 @@ body {
 	align-items: center;
 	margin: 0;
 	font-size: 0.95rem;
-	line-height: 2.25rem;
+	line-height: 2rem;
 	font-family: 'Omori-2', system-ui, sans-serif;
 	background-image: url('../img/bg.png');
 	background-color: black;
@@ -172,12 +171,6 @@ main {
 	overflow-x: scroll;
 	scrollbar-width: none;
 }
-.info__item ul {
-	list-style: none;
-}
-.info__item li {
-	margin-left: 0;
-}
 .info__item img {
 	width: 100%;
 	display: flex;
@@ -257,15 +250,12 @@ main {
 	margin-top: 0;
 	margin-bottom: 1rem;
 }
-#socialCont ul {
-	list-style-position: outside;
-}
 #socialCont li {
 	position: relative;
 	margin-left: 0;
 	left: 0;
 }
-#socialCont li .stuff-link {
+li .stuff-link {
 	position: relative;
 	left: -5px;
 }
@@ -433,6 +423,7 @@ audio {
 @media (max-width: 800px) {
 	body {
 		font-size: 0.75rem;
+		line-height: 1.5rem;
 	}
 	.panel {
 		width: 100%;
