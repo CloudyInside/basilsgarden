@@ -437,4 +437,7 @@ audio {
 	.panel {
 		width: 100%;
 	}
+	.gallery {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
