@@ -431,6 +431,9 @@ audio {
 	}
 }
 @media (max-width: 800px) {
+	body {
+		font-size: 0.5rem;
+	}
 	.panel {
 		width: 100%;
 	}
