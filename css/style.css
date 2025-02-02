@@ -280,6 +280,9 @@ li .stuff-link {
 .first {
 	margin-top: 1rem;
 }
+.socials-list {
+	margin-left: 3.25rem;
+}
 .social-card {
 	margin-left: 4rem;
 	margin-block: 1.5rem;
