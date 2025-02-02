@@ -30,12 +30,13 @@ h4 {
 	border-style: none;
 }
 h2 {
-	font-size: 2.5em;
-	margin-bottom: 1.5rem;
-	margin-top: 0.5rem;
+	font-size: 2.25em;
+	margin-bottom: 1.25rem;
+	margin-top: 0.25rem;
 }
 h3 {
-	font-size: 1.75em;
+	font-size: 1.5em;
+	margin-top: 0;
 	margin-bottom: 1.5rem;
 }
 h4 {
@@ -270,7 +271,7 @@ li .stuff-link {
 	flex-direction: row;
 }
 .blog-card {
-	margin-top: 2rem;
+	margin-top: 1rem;
 	flex-direction: column;
 }
 .blog-card p {
@@ -278,7 +279,7 @@ li .stuff-link {
 	margin-block: 0;
 }
 .first {
-	margin-top: 1rem;
+	margin-top: 0rem;
 }
 .socials-list {
 	margin-left: 3.25rem;
@@ -318,7 +319,6 @@ footer {
 	flex-direction: row;
 	flex-shrink: 0;
 	flex-wrap: wrap;
-	margin-bottom: 0.5rem;
 }
 .door {
 	position: absolute;
@@ -344,7 +344,7 @@ footer {
 	height: 2em;
 	display: flex;
 	flex-direction: row;
-	margin-top: auto;
+	margin-bottom: 0.5rem;
 	margin-inline: auto;
 	flex-shrink: 1;
 	font-size: 0.8em;
@@ -429,7 +429,7 @@ audio {
 }
 @media (max-width: 768px) {
 	body {
-		font-size: 0.75rem;
+		font-size: 0.65rem;
 		line-height: 1.5rem;
 	}
 	.panel {
@@ -447,9 +447,15 @@ audio {
 	}
 	main {
 		margin-bottom: 0.5rem;
-		max-height: 78svh;
+		max-height: 80svh;
 	}
 	.gallery {
 		grid-template-columns: repeat(2, 1fr);
+	}
+	footer {
+		margin-bottom: 1rem;
+	}
+	.footer-info p {
+		font-size: 1.2em;
 	}
 }
