@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		} else {
 			currentIndex = index;
 		}
-		fullScreen.style.backgroundImage = `url('${imgs[currentIndex].src}')`;
+		fullScreen.style.backgroundImage = `url('${imgs[currentIndex]['data-full']}')`;
 		fullScreen.style.display = 'block';
 	}
 
