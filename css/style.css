@@ -350,7 +350,7 @@ footer {
 	max-width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: auto;
+	margin-block: auto;
 	margin-inline: auto;
 }
 audio {
@@ -444,7 +444,7 @@ audio {
 	}
 	main {
 		margin-bottom: 0.5rem;
-		max-height: 80svh;
+		max-height: 78svh;
 	}
 	.gallery {
 		grid-template-columns: repeat(2, 1fr);
