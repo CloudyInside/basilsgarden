@@ -59,7 +59,9 @@ a:visited {
 }
 ul {
 	margin-block: 0;
+	padding-left: 0;
 	list-style: url('../img/hand.gif');
+	list-style-position: inside;
 	image-rendering: pixelated;
 }
 li {
@@ -95,21 +97,20 @@ main {
 	align-items: center;
 	overflow: hidden;
 	flex: 1 1 auto;
-	height: 100%;
+	max-height: 100%;
 	margin-bottom: 1rem;
 	justify-content: flex-start;
 	overflow: scroll;
 	scrollbar-width: none;
 }
 .header-container {
-	min-height: fit-content;
-	padding-top: 1.5rem;
+	min-height: min-content;
 	display: flex;
-	margin-bottom: 0.25rem;
+	margin-block: 1.5rem;
 }
 .nav-bar {
 	width: 100%;
-	margin-bottom: 1.5rem;
+	margin-bottom: 0;
 	display: flex;
 	flex-direction: row;
 	gap: 1.25em;
@@ -346,10 +347,11 @@ footer {
 	font-size: 0.8em;
 }
 .footer-info p {
+	max-width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 0;
 	margin-top: auto;
+	margin-inline: auto;
 }
 audio {
 	opacity: 1;
@@ -422,21 +424,29 @@ audio {
 		left: -1em;
 	}
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
 	body {
 		font-size: 0.75rem;
 		line-height: 1.5rem;
 	}
 	.panel {
 		width: 100%;
+		padding: 5px 15px;
 	}
-	.gallery {
-		grid-template-columns: repeat(2, 1fr);
+	.header-container {
+		margin-block: 0.75rem;
 	}
 	.nav-bar {
 		gap: 0.75em;
 	}
 	.nav__btn {
 		font-size: 1.25em;
+	}
+	main {
+		margin-bottom: 0.5rem;
+		max-height: 80svh;
+	}
+	.gallery {
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
