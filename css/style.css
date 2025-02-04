@@ -139,7 +139,7 @@ main {
 	display: block;
 	position: absolute;
 	top: 30%;
-	left: -1.45em;
+	left: -1.5em;
 	width: 39px;
 	height: 19px;
 	background-image: url('../img/right-hand.png');
@@ -431,10 +431,10 @@ audio {
 }
 @keyframes drift-left-button {
 	from {
-		left: -1.5em;
+		left: -2em;
 	}
 	to {
-		left: -1em;
+		left: -1.5em;
 	}
 }
 @media (max-width: 900px) {
@@ -445,6 +445,10 @@ audio {
 	.panel {
 		width: 100%;
 		padding: 5px 15px;
+	}
+	.nav__btn.active::before {
+		width: 28px;
+		height: 15px;
 	}
 	.social-icon {
 		top: -4px;
