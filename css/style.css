@@ -248,6 +248,9 @@ main {
 	padding: 5px;
 	cursor: url(../img/cursor.png), auto;
 }
+#aboutCont p {
+	margin-top: 0;
+}
 #socialCont p {
 	margin-top: 0;
 	margin-bottom: 1rem;
@@ -305,7 +308,7 @@ li .stuff-link {
 	max-width: fit-content;
 	background-color: white;
 	margin-left: 2rem;
-	margin-top: 2.5rem;
+	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
 }
 .friend-card img {
@@ -457,6 +460,11 @@ audio {
 	}
 	footer {
 		margin-block: 1rem;
+	}
+	audio {
+		width: 15rem;
+		height: 2.5rem;
+		font-size: 0.5rem;
 	}
 	.footer-info {
 		margin-top: 10px;
