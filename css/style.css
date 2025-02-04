@@ -262,11 +262,8 @@ main {
 }
 li .li-link {
 	position: relative;
-	left: -5px;
-}
-.li-description {
-	position: relative;
-	left: -10px;
+	margin-left: -8px;
+	margin-right: -5px;
 }
 .card {
 	width: 100%;
