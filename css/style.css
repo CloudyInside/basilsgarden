@@ -218,8 +218,8 @@ main {
 	margin-bottom: 0;
 }
 .blog-stats {
-	margin-top: 0.8rem;
-	font-size: 0.75em;
+	margin-top: 0;
+	font-size: 0.65em;
 }
 .blog-stats img {
 	width: 1rem;
@@ -260,9 +260,13 @@ main {
 	margin-left: 0;
 	left: 0;
 }
-li .stuff-link {
+li .li-link {
 	position: relative;
 	left: -5px;
+}
+.li-description {
+	position: relative;
+	left: -10px;
 }
 .card {
 	width: 100%;
@@ -272,6 +276,9 @@ li .stuff-link {
 }
 .social-card {
 	flex-direction: row;
+}
+.social-card h4 {
+	text-transform: none;
 }
 .blog-card {
 	margin-top: 1rem;
@@ -285,7 +292,7 @@ li .stuff-link {
 	margin-top: 0rem;
 }
 .socials-list {
-	margin-left: 3.25rem;
+	list-style: none;
 }
 .social-card {
 	margin-left: 4rem;
@@ -397,29 +404,29 @@ audio {
 	z-index: 10;
 }
 .left-arrow {
-	left: 20px;
+	left: 5px;
 	background-image: url(../img/left-hand.png);
 	animation: drift-left 0.5s steps(4) infinite alternate;
 }
 .right-arrow {
-	right: 20px;
+	right: 5px;
 	background-image: url(../img/right-hand.png);
 	animation: drift-right 0.5s steps(4) infinite alternate;
 }
 @keyframes drift-right {
 	from {
-		right: 10px;
+		right: 15px;
 	}
 	to {
-		right: 20px;
+		right: 5px;
 	}
 }
 @keyframes drift-left {
 	from {
-		left: 10px;
+		left: 15px;
 	}
 	to {
-		left: 20px;
+		left: 5px;
 	}
 }
 @keyframes drift-left-button {
@@ -438,6 +445,23 @@ audio {
 	.panel {
 		width: 100%;
 		padding: 5px 15px;
+	}
+	.social-icon {
+		top: -4px;
+		left: -35px;
+	}
+	.social-icon > img {
+		width: 28px;
+	}
+	.arrow {
+		width: 28px;
+		height: 14px;
+	}
+	.blog-stats {
+		margin-top: 6px;
+	}
+	.blog-stats img {
+		width: 0.65rem;
 	}
 }
 @media (max-width: 768px) {
