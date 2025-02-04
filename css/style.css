@@ -73,7 +73,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	margin: 0;
-	font-size: 0.95rem;
+	font-size: 1.125rem;
 	line-height: 2rem;
 	font-family: 'Omori-2', system-ui, sans-serif;
 	background-image: url('../img/bg.png');
@@ -127,7 +127,7 @@ main {
 	color: #fff;
 	background-color: #000;
 	box-shadow: inset 0 0 0 1px #000, inset 0 0 0 3px #fff;
-	font-size: 1.125em;
+	font-size: 1em;
 	text-transform: uppercase;
 	cursor: url(../img/cursor.png), auto;
 	border-style: none;
@@ -161,7 +161,7 @@ main {
 	width: 100%;
 	padding: 1rem;
 	justify-content: flex-start;
-	font-size: 1.5em;
+	font-size: 1em;
 	background-color: #000;
 	box-shadow: inset 0 0 0 1px #000, inset 0 0 0 3px #fff;
 	overflow-y: hidden;
@@ -188,7 +188,7 @@ main {
 	height: 100%;
 	width: 100%;
 	padding: 1rem;
-	font-size: 1.5em;
+	font-size: 1em;
 	background-color: #000;
 	box-shadow: inset 0 0 0 1px #000, inset 0 0 0 3px #fff;
 	overflow: hidden;
@@ -218,7 +218,7 @@ main {
 	margin-bottom: 0;
 }
 .blog-stats {
-	margin-top: 1rem;
+	margin-top: 0.8rem;
 	font-size: 0.75em;
 }
 .blog-stats img {
@@ -347,7 +347,7 @@ footer {
 	margin-bottom: 0.5rem;
 	margin-inline: auto;
 	flex-shrink: 1;
-	font-size: 0.8em;
+	font-size: 0.6em;
 }
 .footer-info p {
 	max-width: 100%;
@@ -427,23 +427,26 @@ audio {
 		left: -1em;
 	}
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 	body {
-		font-size: 0.65rem;
-		line-height: 1.5rem;
+		font-size: 0.8rem;
+		line-height: 1.125rem;
 	}
 	.panel {
 		width: 100%;
 		padding: 5px 15px;
+	}
+}
+@media (max-width: 768px) {
+	body {
+		font-size: 0.75rem;
+		line-height: 0.95rem;
 	}
 	.header-container {
 		margin-block: 0.75rem;
 	}
 	.nav-bar {
 		gap: 0.75em;
-	}
-	.nav__btn {
-		font-size: 1.25em;
 	}
 	main {
 		margin-bottom: 0.5rem;
@@ -453,9 +456,10 @@ audio {
 		grid-template-columns: repeat(2, 1fr);
 	}
 	footer {
-		margin-bottom: 1rem;
+		margin-block: 1rem;
 	}
-	.footer-info p {
-		font-size: 1.2em;
+	.footer-info {
+		margin-top: 10px;
+		font-size: 0.8em;
 	}
 }
