@@ -359,7 +359,7 @@ footer {
 	font-size: 0.6em;
 }
 .footer-info p {
-	max-width: 90%;
+	max-width: 100%;
 	display: inline-block;
 	flex-wrap: wrap;
 	margin: 0 auto;
