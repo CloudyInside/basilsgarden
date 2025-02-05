@@ -66,7 +66,7 @@ ul {
 	image-rendering: pixelated;
 }
 li {
-	margin-bottom: 1.125rem;
+	margin-bottom: 0.75rem;
 }
 body {
 	display: flex;
@@ -74,7 +74,7 @@ body {
 	align-items: center;
 	margin: 0;
 	font-size: 1.125rem;
-	line-height: 2rem;
+	line-height: 1.75rem;
 	font-family: 'Omori-2', system-ui, sans-serif;
 	background-image: url('../img/bg.png');
 	background-color: black;
@@ -107,7 +107,7 @@ main {
 .header-container {
 	min-height: min-content;
 	display: flex;
-	margin-block: 1.5rem;
+	margin-block: 0.5rem;
 }
 .nav-bar {
 	width: 100%;
@@ -127,7 +127,7 @@ main {
 	color: #fff;
 	background-color: #000;
 	box-shadow: inset 0 0 0 1px #000, inset 0 0 0 3px #fff;
-	font-size: 1em;
+	font-size: 0.95em;
 	text-transform: uppercase;
 	cursor: url(../img/cursor.png), auto;
 	border-style: none;
@@ -218,7 +218,7 @@ main {
 	margin-bottom: 0;
 }
 .blog-stats {
-	margin-top: 0;
+	margin-top: 5px;
 	font-size: 0.65em;
 }
 .blog-stats img {
@@ -365,7 +365,6 @@ footer {
 }
 audio {
 	opacity: 1;
-	display: flex;
 	margin-left: auto;
 	background-color: #000;
 	border: 2px solid white;
