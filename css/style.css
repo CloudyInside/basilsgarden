@@ -292,6 +292,7 @@ li .li-link {
 	list-style: none;
 }
 .social-card {
+	width: fit-content;
 	margin-left: 4rem;
 	margin-block: 1.5rem;
 	position: relative;
