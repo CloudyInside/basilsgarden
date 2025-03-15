@@ -155,11 +155,14 @@ main {
 	top: -5px;
 }
 .lan-btn {
-	color: gray;
+	font-size: 1em;
+	display: flex;
 	position: absolute;
-	right: 0;
+	right: 10px;
+	color: gray;
 	background: none;
 	border: none;
+	align-items: center;
 	-webkit-text-stroke: 1px;
 	cursor: url(../img/cursor.png), auto;
 }
@@ -510,5 +513,9 @@ audio {
 		width: 15rem;
 		height: 2.5rem;
 		font-size: 0.5rem;
+	}
+	.lan-btn {
+		right: -8px;
+		font-size: 0.8em;
 	}
 }
