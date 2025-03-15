@@ -105,6 +105,7 @@ main {
 	scrollbar-width: none;
 }
 .header-container {
+	position: relative;
 	min-height: min-content;
 	display: flex;
 	margin-block: 0.5rem;
@@ -152,6 +153,20 @@ main {
 .nav__btn:hover,
 .nav__btn:focus {
 	top: -5px;
+}
+.lan-btn {
+	color: gray;
+	position: absolute;
+	right: 0;
+	background: none;
+	border: none;
+	-webkit-text-stroke: 1px;
+	cursor: url(../img/cursor.png), auto;
+}
+.lan-btn:active,
+.lan-btn:hover,
+.lan-btn:focus {
+	color: black;
 }
 .info-section {
 	position: relative;
