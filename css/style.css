@@ -155,7 +155,7 @@ main {
 	top: -5px;
 }
 .lan-btn {
-	font-size: 1em;
+	font-size: 0.8em;
 	display: flex;
 	position: absolute;
 	right: 10px;
@@ -516,6 +516,5 @@ audio {
 	}
 	.lan-btn {
 		right: -8px;
-		font-size: 0.8em;
 	}
 }
