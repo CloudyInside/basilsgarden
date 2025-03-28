@@ -521,9 +521,6 @@ audio::-webkit-media-controls-timeline {
 	.blog-stats img {
 		width: 0.65rem;
 	}
-	footer {
-		margin-block: 1rem;
-	}
 	.footer-info {
 		margin-top: 10px;
 		font-size: 0.8em;
@@ -534,11 +531,9 @@ audio::-webkit-media-controls-timeline {
 		font-size: 0.75rem;
 		line-height: 0.95rem;
 	}
-	.header-container {
-		margin-block: 0.75rem;
-	}
 	.nav-bar {
 		gap: 0.75em;
+		margin-bottom: 5px;
 	}
 	main {
 		margin-bottom: 0.5rem;
@@ -554,5 +549,11 @@ audio::-webkit-media-controls-timeline {
 	}
 	.lan-btn {
 		right: -8px;
+	}
+	footer {
+		margin-bottom: 1rem;
+	}
+	.footer-info p {
+		font-size: 0.75em;
 	}
 }
