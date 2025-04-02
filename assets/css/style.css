@@ -376,22 +376,22 @@ footer {
 .footer-info {
 	width: fit-content;
 	margin-top: auto;
+	margin-inline: auto;
+	margin-bottom: 15px;
 	height: 2em;
 	display: flex;
 	justify-content: center;
 	text-align: center;
 	flex-direction: row;
-	margin-bottom: 0.5rem;
-	margin-inline: auto;
 	flex-shrink: 1;
 	font-size: 0.6em;
-	margin-bottom: 15px;
 }
 .footer-info p {
 	max-width: 100%;
 	display: inline-block;
 	flex-wrap: wrap;
-	margin: 0 auto;
+	margin-block: 0;
+	margin-inline: auto;
 }
 audio {
 	margin-left: auto;
@@ -571,5 +571,9 @@ audio::-webkit-media-controls-timeline {
 		top: unset;
 		bottom: 18px;
 		left: 15px;
+	}
+	.footer-info p {
+		margin-inline: 25px;
+		margin-top: 4px;
 	}
 }
