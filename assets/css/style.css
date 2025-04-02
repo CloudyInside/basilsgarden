@@ -156,8 +156,9 @@ main {
 .lan-btn {
 	display: flex;
 	position: absolute;
-	right: 0;
-
+	top: 5px;
+	right: 10px;
+	z-index: 1;
 	background: none;
 	border: none;
 	align-items: center;
@@ -552,15 +553,23 @@ audio::-webkit-media-controls-timeline {
 		font-size: 0.5rem;
 	}
 	.lan-btn {
-		right: -8px;
+		right: 5px;
+		transform: scale(1.5);
 	}
 	.footer-info p {
 		margin-top: 5px;
 		font-size: 1em;
 	}
 }
-@media (max-width: 450px) {
+@media (max-width: 600px) {
 	main {
 		max-height: 80svh;
+	}
+	.lan-btn {
+		position: fixed;
+		right: unset;
+		top: unset;
+		bottom: 18px;
+		left: 15px;
 	}
 }
