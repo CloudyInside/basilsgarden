@@ -2,6 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en/about/</loc>
+    <lastmod>2025-07-13T08:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/art/</loc>
+    <lastmod>2025-07-13T08:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/art/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/art/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2025-07-13T08:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/links/</loc>
+    <lastmod>2025-07-13T08:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/links/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/photos/</loc>
+    <lastmod>2025-07-13T08:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/photos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/photos/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/tags/blue/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
@@ -93,32 +158,6 @@
                 href="http://localhost:1313/en/blog/post-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
-    <lastmod>2023-01-01T08:30:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="http://localhost:1313/es/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/about/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/art/</loc>
-    <lastmod>2023-01-01T08:30:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="http://localhost:1313/es/art/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/art/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/blog/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
     <xhtml:link
@@ -130,45 +169,6 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/en/blog/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/links/</loc>
-    <lastmod>2023-01-01T08:30:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="http://localhost:1313/es/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/links/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/photos/</loc>
-    <lastmod>2023-01-01T08:30:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="http://localhost:1313/es/photos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/photos/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/</loc>
-    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="http://localhost:1313/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
