@@ -2,185 +2,185 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>https://basilsgarden.netlify.app/en/about/</loc>
     <lastmod>2025-07-13T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/about/"
+                href="https://basilsgarden.netlify.app/es/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/about/"
+                href="https://basilsgarden.netlify.app/en/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/art/</loc>
+    <loc>https://basilsgarden.netlify.app/en/art/</loc>
     <lastmod>2025-07-13T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/art/"
+                href="https://basilsgarden.netlify.app/es/art/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/art/"
+                href="https://basilsgarden.netlify.app/en/art/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://basilsgarden.netlify.app/en/</loc>
     <lastmod>2025-07-13T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/"
+                href="https://basilsgarden.netlify.app/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/"
+                href="https://basilsgarden.netlify.app/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/links/</loc>
+    <loc>https://basilsgarden.netlify.app/en/links/</loc>
     <lastmod>2025-07-13T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/links/"
+                href="https://basilsgarden.netlify.app/es/links/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/links/"
+                href="https://basilsgarden.netlify.app/en/links/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/photos/</loc>
+    <loc>https://basilsgarden.netlify.app/en/photos/</loc>
     <lastmod>2025-07-13T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/photos/"
+                href="https://basilsgarden.netlify.app/es/photos/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/photos/"
+                href="https://basilsgarden.netlify.app/en/photos/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/blue/</loc>
+    <loc>https://basilsgarden.netlify.app/en/tags/blue/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/tags/blue/"
+                href="https://basilsgarden.netlify.app/es/tags/blue/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/tags/blue/"
+                href="https://basilsgarden.netlify.app/en/tags/blue/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/green/</loc>
+    <loc>https://basilsgarden.netlify.app/en/tags/green/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/tags/green/"
+                href="https://basilsgarden.netlify.app/es/tags/green/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/tags/green/"
+                href="https://basilsgarden.netlify.app/en/tags/green/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/blog/post-3/</loc>
+    <loc>https://basilsgarden.netlify.app/en/blog/post-3/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/blog/post-3/"
+                href="https://basilsgarden.netlify.app/es/blog/post-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/blog/post-3/"
+                href="https://basilsgarden.netlify.app/en/blog/post-3/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/red/</loc>
+    <loc>https://basilsgarden.netlify.app/en/tags/red/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/tags/red/"
+                href="https://basilsgarden.netlify.app/es/tags/red/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/tags/red/"
+                href="https://basilsgarden.netlify.app/en/tags/red/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://basilsgarden.netlify.app/en/tags/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/tags/"
+                href="https://basilsgarden.netlify.app/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/tags/"
+                href="https://basilsgarden.netlify.app/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/blog/post-2/</loc>
+    <loc>https://basilsgarden.netlify.app/en/blog/post-2/</loc>
     <lastmod>2023-02-15T10:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/blog/post-2/"
+                href="https://basilsgarden.netlify.app/es/blog/post-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/blog/post-2/"
+                href="https://basilsgarden.netlify.app/en/blog/post-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/blog/post-1/</loc>
+    <loc>https://basilsgarden.netlify.app/en/blog/post-1/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/blog/post-1/"
+                href="https://basilsgarden.netlify.app/es/blog/post-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/blog/post-1/"
+                href="https://basilsgarden.netlify.app/en/blog/post-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/blog/</loc>
+    <loc>https://basilsgarden.netlify.app/en/blog/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/blog/"
+                href="https://basilsgarden.netlify.app/es/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/blog/"
+                href="https://basilsgarden.netlify.app/en/blog/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://basilsgarden.netlify.app/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="http://localhost:1313/es/categories/"
+                href="https://basilsgarden.netlify.app/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/categories/"
+                href="https://basilsgarden.netlify.app/en/categories/"
                 />
   </url>
 </urlset>

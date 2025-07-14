@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fotos on Basil&#39;s Garden</title>
-    <link>http://localhost:1313/es/photos/</link>
+    <link>https://basilsgarden.netlify.app/es/photos/</link>
     <description>Recent content in Fotos on Basil&#39;s Garden</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/es/photos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://basilsgarden.netlify.app/es/photos/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
