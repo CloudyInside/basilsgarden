@@ -17,7 +17,7 @@
       </section>
       <section class="blog-description">
         <p>
-          Blog Description...
+          {{ .Plain | truncate 10 " ..." }}
         </p>
       </section>
     </article>
