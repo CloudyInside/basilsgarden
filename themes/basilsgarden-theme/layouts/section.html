@@ -17,7 +17,7 @@
       </section>
       <section class="blog-description">
         <p>
-          {{ .Plain | truncate 10 " ..." }}
+          {{ .Content | plainify | truncate 100 " ..." }}
         </p>
       </section>
     </article>
