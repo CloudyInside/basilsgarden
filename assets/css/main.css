@@ -178,10 +178,10 @@ main {
 .lan-btn:active,
 .lan-btn:hover,
 .lan-btn:focus {
-	.es::before {
+	& .es::before {
 		color: black;
 	}
-	.en::before {
+	& .en::before {
 		color: black;
 	}
 }
