@@ -53,3 +53,18 @@ document.addEventListener('DOMContentLoaded', () => {
 		this.style.display = 'none';
 	});
 });
+
+// Reproducción continua de audio
+const audio = document.getElementById('persistent-audio');
+
+// Restaurar al cargar una página
+const savedTime = localStorage.getItem('audioTime');
+const savedIsPlaying = localStorage.getItem('audioPlaying') === 'true';
+if (savedTime) audio.currentTime = parseFloat(savedTime);
+if (savedIsPlaying) audio.play().catch((e) => console.log('Auto-play blocked:', e));
+
+// Guardar estado periódicamente
+setInterval(() => {
+	localStorage.setItem('audioTime', audio.currentTime);
+	localStorage.setItem('audioPlaying', !audio.paused);
+}, 1000);
