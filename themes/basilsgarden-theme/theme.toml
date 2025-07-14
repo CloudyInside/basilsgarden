@@ -5,8 +5,6 @@ title = 'My New Hugo Site'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
-publishDir = "public"
-
 [languages]
   [languages.en]
     baseURL = "https://basilsgarden.netlify.app/en/"

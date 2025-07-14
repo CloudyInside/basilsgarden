@@ -1,5 +1,5 @@
 baseURL = 'https://basilsgarden.netlify.app/'
-languageCode = 'en-us'
+languageCode = 'en-US'
 title = "Basil's Garden"
 theme = 'basilsgarden-theme'
 favicon = '/img/favicon.ico'
@@ -7,7 +7,10 @@ favicon = '/img/favicon.ico'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
-publishDir = "public"
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 301
 
 [languages]
   [languages.en]
