@@ -10,9 +10,9 @@ Me llamo Basil/Cloudy, y este es mi pequeño rincón de los internetes. Aquí po
 encontrar una colección de mi arte favorito propio, enlaces a mis redes y mi propio blog entre
 otras cosas.
 
-Mis pronombres son <span class="accent">ella/elle</span>
+Mis pronombres son {{< accent >}}ella/elle{{< /accent >}}
 
-Soy una estudiante de desarrollo web de <span class="accent">Andalucía</span> a la que le gustan demasiadas cosas, como la fotografía, los videojuegos, dibujar y la informática, y quién sabe que más. Mira las secciones apropiadas para más info.
+Soy una estudiante de desarrollo web de {{< accent >}}Andalucía{{< /accent >}} a la que le gustan demasiadas cosas, como la fotografía, los videojuegos, dibujar y la informática, y quién sabe que más. Mira las secciones apropiadas para más info.
 
 Si has llegado aquí porque nos vimos en una convención o escaneaste el QR de mi tarjeta puedes taggearme en mi [Instagram](https://www.instagram.com/cloudylnside/).
 

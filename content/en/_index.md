@@ -8,9 +8,9 @@ draft = false
 
 Hi there! Basil/Cloudy here, and this is my little space on the internet. Here you will be able to find a collection of favourite art of my own, links to my socials and my own blog.
 
-My pronouns are sher/her or they/them.
+My pronouns are {{< accent >}}she/her{{< /accent >}} or {{< accent >}}they/them{{< /accent >}}.
 
-I am webdev student from Andalucía, Spain who likes too many things, say photography, games, drawing and computers, and who knows what else. See the relevant section for more.
+I am webdev student from {{< accent >}}Andalucía, Spain{{< /accent >}} who likes too many things, say photography, games, drawing and computers, and who knows what else. See the relevant section for more.
 
 If you are here because I met you in a con or scanned my card's QR code and you took a pic with me, you can tag me in my [Instagram](https://www.instagram.com/cloudylnside/).
 
