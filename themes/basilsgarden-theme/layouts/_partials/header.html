@@ -1,0 +1,23 @@
+<nav class="nav-bar">
+    {{ $currentPage := .RelPermalink }}
+    {{ range .Site.Menus.main }}
+    {{ $menuUrl := .URL | relLangURL }}
+    {{ $isActive := or (eq $currentPage $menuUrl) (and (ne $menuUrl "/") (hasPrefix $currentPage $menuUrl)) }}
+    <a href="{{ $menuUrl }}">
+        <button class="nav__btn {{ if $isActive }}active{{ end }}">{{ .Name }}</button>
+    </a>
+    {{ end }}
+</nav>
+{{ range .Translations }}
+<a href="{{ .Permalink }}">
+    <button class="lan-btn {{ .Language.Lang }}">
+        <img src="/img/{{ .Language.Lang }}_flag.png" alt="{{ .Language.Lang }}">
+    </button>
+</a>
+{{ end }}
+{{/* <h1>{{ site.Title }}</h1> */}}
+{{/* {{ partial "menu.html" (dict "menuID" "main" "page" .) }} */}}
+
+{{/* {{ range where site.Sections "Type" "!=" "" }}
+<a href="{{ .RelPermalink }}"><button class="nav__btn">{{ .LinkTitle }}</button></a>
+{{ end }} */}}

@@ -1,0 +1,13 @@
+<ul class="socials-list">
+    {{ range .Site.Data.socials }}
+    <li>
+        <a class="card social-card" href="{{ .url }}" target="_blank">
+            <section class="social-icon">
+                <img src="{{ .icon }}">
+            </section>
+
+            <h4>{{ .name }}</h4>
+        </a>
+    </li>
+    {{ end }}
+</ul>

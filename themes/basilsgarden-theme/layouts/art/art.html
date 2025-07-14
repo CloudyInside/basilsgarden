@@ -1,0 +1,18 @@
+{{ define "main" }}
+<section class="content-container" id="artCont">
+    <section class="gallery">
+        {{ $staticFiles := readDir "static/img/drawings/thumbs" }}
+        {{ range sort $staticFiles ".CreationTime" "desc"}}
+        {{ $fullName := replaceRE `\..+$` ".png" .Name }}
+        <img src="/img/drawings/thumbs/{{ .Name }}" alt="{{ .Name }}" loading="lazy"
+            data-full="/img/drawings/full/{{ $fullName }}">
+        {{ end }}
+    </section>
+    <section id="fullscreen"></section>
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+</section>
+{{ end }}
+{{/* <h1>{{ .Title }}</h1>
+{{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+{{ $dateHuman := .Date | time.Format ":date_long" }}
+<time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> */}}

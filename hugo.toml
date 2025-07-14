@@ -1,0 +1,63 @@
+baseURL = 'https://basilsgarden.netlify.app/en/'
+languageCode = 'en-us'
+title = "Basil's Garden"
+theme = 'basilsgarden-theme'
+favicon = '/img/favicon.ico'
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    languageCode = 'en-US'
+    languageName = 'English'
+    weight = 1
+    
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "/about/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Blog"
+      url = "/blog/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Photos"
+      url = "/photos/"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "Art"
+      url = "/art/"
+      weight = 4
+    [[languages.en.menu.main]]
+      name = "Links"
+      url = "/links/"
+      weight = 5
+
+  [languages.es]
+    contentDir = 'content/es'
+    languageCode = 'es-ES'
+    languageName = "Español"
+    weight = 2
+    
+    [[languages.es.menu.main]]
+      name = "Acerca"
+      url = "/about/"
+      weight = 1
+    [[languages.es.menu.main]]
+      name = "Blog"
+      url = "/blog/"
+      weight = 2
+    [[languages.es.menu.main]]
+      name = "Fotos"
+      url = "/photos/"
+      weight = 3
+    [[languages.es.menu.main]]
+      name = "Arte"
+      url = "/art/"
+      weight = 4
+    [[languages.es.menu.main]]
+      name = "Links"
+      url = "/links/"
+      weight = 5

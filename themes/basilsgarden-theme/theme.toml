@@ -1,0 +1,67 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-US'
+title = 'My New Hugo Site'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/en'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 20
+
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    weight = 1
+    [languages.en.permalinks]
+      [languages.en.permalinks.page]
+        art = '/art/:slug/'
+        blog = '/blog/:slug/'
+        photos = '/photos/:slug/'
+        links = '/links/:slug/'
+        about = '/about/:slug/'
+      [languages.en.permalinks.section]
+        art = '/art/'
+        blog = '/blog/'
+        photos = '/photos/'
+        links = '/links/'
+        about = '/about/'
+  [languages.es]
+    contentDir = 'content/es'
+    languageCode = 'es-ES'
+    languageDirection = 'ltr'
+    languageName = 'Español'
+    weight = 2
+    [languages.es.permalinks]
+      [languages.es.permalinks.page]
+        art = '/art/:slug/'
+        blog = '/blog/:slug/'
+        photos = '/photos/:slug/'
+        links = '/links/:slug/'
+        about = '/about/:slug/'
+      [languages.es.permalinks.section]
+        art = '/art/'
+        blog = '/blog/'
+        photos = '/photos/'
+        links = '/links/'
+        about = '/about/'

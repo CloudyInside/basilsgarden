@@ -1,0 +1,3 @@
+[submodule "themes/basilsgarden-theme"]
+    path = "themes/basilsgarden-theme"
+    url = "https://github.com/CloudyInside/basilsgarden-theme.git"

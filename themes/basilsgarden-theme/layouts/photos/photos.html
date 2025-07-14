@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section class="content-container" id="photoCont">
+    <section class="gallery">
+        {{ $staticFiles := readDir "static/img/photos/thumbs" }}
+        {{ range sort $staticFiles ".ModTime" "desc" }}
+        <img src="/img/photos/thumbs/{{ .Name }}" alt="{{ .Name }}" loading="lazy"
+            data-full="/img/photos/full/{{ .Name }}">
+        {{ end }}
+    </section>
+    <section id="fullscreen"></section>
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+</section>
+{{ end }}
+{{/* <h1>{{ .Title }}</h1>
+{{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+{{ $dateHuman := .Date | time.Format ":date_long" }}
+<time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> */}}

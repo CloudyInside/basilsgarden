@@ -1,0 +1,19 @@
+- name: "Bluesky"
+  icon: "/img/site/bluesky.png"
+  url: "https://bsky.app/profile/cloudyinside.bsky.social"
+  
+- name: "Twitter"
+  icon: "/img/site/twitter.png"
+  url: "https://x.com/Cloudy0utside"
+  
+- name: "Instagram"
+  icon: "/img/site/instagram.png"
+  url: "https://www.instagram.com/cloudylnside/"
+  
+- name: "Letterboxd"
+  icon: "/img/site/letterboxd.png"
+  url: "https://letterboxd.com/CloudyInside/"
+  
+- name: "Github"
+  icon: "/img/site/github.png"
+  url: "https://github.com/CloudyInside"
