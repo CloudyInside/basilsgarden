@@ -1,4 +1,4 @@
-baseURL = 'https://basilsgarden.netlify.app/'
+baseURL = 'https://basilsgarden.netlify.app'
 languageCode = 'en-us'
 title = "Basil's Garden"
 theme = 'basilsgarden-theme'
