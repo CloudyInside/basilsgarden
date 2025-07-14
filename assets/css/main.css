@@ -162,28 +162,21 @@ main {
 	background: none;
 	border: none;
 	align-items: center;
+	font-size: 0.8em;
+	color: gray;
 	-webkit-text-stroke: 1px;
 	cursor: url('/img/site/cursor.png'), auto;
 }
 .es::before {
 	content: 'ES';
-	font-size: 0.8em;
-	color: gray;
 }
 .en::before {
 	content: 'EN';
-	font-size: 0.8em;
-	color: gray;
 }
-.lan-btn {
-	&:active,
-	&:hover,
-	&:focus {
-		.es::before,
-		.en::before {
-			color: black;
-		}
-	}
+.lan-btn:active,
+.lan-btn:hover,
+.lan-btn:focus {
+	color: black;
 }
 .info-section {
 	position: relative;
