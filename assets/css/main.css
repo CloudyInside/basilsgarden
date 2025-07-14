@@ -175,14 +175,14 @@ main {
 	font-size: 0.8em;
 	color: gray;
 }
-.lan-btn:active,
-.lan-btn:hover,
-.lan-btn:focus {
-	& .es::before {
-		color: black;
-	}
-	& .en::before {
-		color: black;
+.lan-btn {
+	&:active,
+	&:hover,
+	&:focus {
+		.es::before,
+		.en::before {
+			color: black;
+		}
 	}
 }
 .info-section {
