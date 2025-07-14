@@ -22,6 +22,6 @@ Este sitio está dividido en unas pocas secciones, las cuales se pueden acceder 
 
 -   [Acerca:](/about)  Datos más personales sobre mí y que hago con mi vida.
 -   [Blog:](/blog)  Artículos sobre cosas en las que estoy interesada o me ha dado el venazo.
--   [Photos:](/photos)  Una colección de fotos cucas tomadas por servidora.
--   [Art:](/art)  Arte Digital y Tradicional que hago de uvas a peras.
+-   [Fotos:](/photos)  Una colección de fotos cucas tomadas por servidora.
+-   [Arte:](/art)  Arte Digital y Tradicional que hago de uvas a peras.
 -   [Links:](/links)  Un puñado de sitios donde puedes encontrarme.
