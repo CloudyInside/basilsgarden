@@ -178,7 +178,12 @@ main {
 .lan-btn:active,
 .lan-btn:hover,
 .lan-btn:focus {
-	color: black;
+	.es::before {
+		color: black;
+	}
+	.en::before {
+		color: black;
+	}
 }
 .info-section {
 	position: relative;
@@ -357,7 +362,7 @@ footer {
 .door {
 	position: absolute;
 	display: block;
-	top: 0;
+	top: -6px;
 	margin-block: 0;
 	width: 22px;
 	height: 34px;
