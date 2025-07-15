@@ -162,18 +162,16 @@ main {
 	background: none;
 	border: none;
 	align-items: center;
+	font-size: 0.8em;
+	color: gray;
 	-webkit-text-stroke: 1px;
 	cursor: url('/img/site/cursor.png'), auto;
 }
 .es::before {
 	content: 'ES';
-	font-size: 0.8em;
-	color: gray;
 }
 .en::before {
 	content: 'EN';
-	font-size: 0.8em;
-	color: gray;
 }
 .lan-btn:active,
 .lan-btn:hover,
@@ -357,7 +355,7 @@ footer {
 .door {
 	position: absolute;
 	display: block;
-	top: 0;
+	top: -6px;
 	margin-block: 0;
 	width: 22px;
 	height: 34px;
@@ -563,17 +561,16 @@ audio::-webkit-media-controls-timeline {
 }
 @media (max-width: 600px) {
 	main {
-		max-height: 80svh;
+		max-height: 88svh;
 	}
 	.lan-btn {
 		position: fixed;
-		right: unset;
+		right: 18px;
 		top: unset;
 		bottom: 18px;
-		left: 15px;
 	}
 	.footer-info p {
 		margin-inline: 25px;
-		margin-top: 4px;
+		margin-top: -6px;
 	}
 }
