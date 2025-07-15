@@ -561,7 +561,7 @@ audio::-webkit-media-controls-timeline {
 }
 @media (max-width: 600px) {
 	main {
-		max-height: 90svh;
+		max-height: 88svh;
 	}
 	.lan-btn {
 		position: fixed;
@@ -571,6 +571,6 @@ audio::-webkit-media-controls-timeline {
 	}
 	.footer-info p {
 		margin-inline: 25px;
-		margin-top: 4px;
+		margin-top: 0;
 	}
 }
