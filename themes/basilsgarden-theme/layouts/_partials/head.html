@@ -3,5 +3,7 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
+<link rel="icon" type="image/x-icon" href="{{ `favicon.ico` | relURL }}">
 <link rel="preload" href="/img/bg.png" as="image">
+<link rel="preload" href="/img/door_open.png" as="image">
 <link rel="preload" href="/fonts/OMORI_GAME2.ttf" as="font" type="font/ttf" crossorigin>
