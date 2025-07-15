@@ -571,6 +571,6 @@ audio::-webkit-media-controls-timeline {
 	}
 	.footer-info p {
 		margin-inline: 25px;
-		margin-top: 0;
+		margin-top: -6px;
 	}
 }
