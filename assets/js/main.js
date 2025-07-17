@@ -53,3 +53,63 @@ document.addEventListener('DOMContentLoaded', () => {
 		this.style.display = 'none';
 	});
 });
+
+function setGridHeight(grid) {
+	const firstImg = grid.querySelector('img');
+	if (!firstImg) return;
+
+	// Force browser to calculate actual image height
+	const imgHeight = firstImg.getBoundingClientRect().height;
+	const gap = parseFloat(getComputedStyle(grid).gap) || 0;
+	const rowHeight = imgHeight + gap;
+
+	grid.style.maxHeight = `${rowHeight}px`;
+	console.log('Set grid height:', rowHeight, 'px');
+}
+
+// Wait for all images to load
+function initGrids() {
+	document.querySelectorAll('.favs').forEach((grid) => {
+		const images = grid.querySelectorAll('img');
+		let loadedCount = 0;
+
+		if (images.length === 0) {
+			setGridHeight(grid);
+			return;
+		}
+
+		images.forEach((img) => {
+			if (img.complete) {
+				loadedCount++;
+			} else {
+				img.addEventListener('load', () => {
+					loadedCount++;
+					if (loadedCount === images.length) {
+						setGridHeight(grid);
+					}
+				});
+			}
+		});
+
+		// If all images are already loaded
+		if (loadedCount === images.length) {
+			setGridHeight(grid);
+		}
+	});
+}
+
+// Run when DOM is ready
+document.addEventListener('DOMContentLoaded', initGrids);
+
+// Optional: Handle responsive changes
+const resizeObserver = new ResizeObserver((entries) => {
+	entries.forEach((entry) => {
+		if (entry.target.classList.contains('favs')) {
+			setGridHeight(entry.target);
+		}
+	});
+});
+
+document.querySelectorAll('.favs').forEach((grid) => {
+	resizeObserver.observe(grid);
+});

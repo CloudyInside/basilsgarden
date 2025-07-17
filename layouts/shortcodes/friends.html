@@ -1,1 +1,10 @@
-{{ partial "friends.html" . }}
+<ul class="socials-list">
+    {{ range .Site.Data.friends }}
+    <li>
+        {{/* <h4>{{ .name }}</h4> */}}
+        <a class="card friend-card" href="{{ .url }}" target="_blank">
+            <img src="{{ .icon }}" alt="{{ .name }}" />
+        </a>
+    </li>
+    {{ end }}
+</ul>

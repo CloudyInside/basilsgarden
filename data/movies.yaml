@@ -1,0 +1,35 @@
+- name: 'Pirates of the Caribbean: The Curse of the Black Pearl (2003)'
+  icon: '/img/movies/pirates.jpg'
+
+- name: 'Lupin the Third: The Castle of Cagliostro (1979)'
+  icon: '/img/movies/lupin.jpg'
+
+- name: 'For a Few Dollars More (1965)'
+  icon: '/img/movies/dollars.jpg'
+
+- name: '[REC] (2007)'
+  icon: '/img/movies/rec.jpg'
+
+- name: 'Kikis Delivery Services (1989)'
+  icon: '/img/movies/kiki.jpg'
+
+- name: 'Porco Rosso (1992)'
+  icon: '/img/movies/rosso.jpg'
+
+- name: 'Sinners (2025)'
+  icon: '/img/movies/sinners.jpg'
+
+- name: 'Star Wars: Return of the Jedi (1983)'
+  icon: '/img/movies/jedi.jpg'
+
+- name: 'Conclave (2024)'
+  icon: '/img/movies/conclave.jpg'
+
+- name: 'Bullet Train (2022)'
+  icon: '/img/movies/train.jpg'
+
+- name: 'Nosferatu (2024)'
+  icon: '/img/movies/nosferatu.jpg'
+
+- name: 'The Room (2003)'
+  icon: '/img/movies/room.jpg'

@@ -6,7 +6,7 @@ draft = false
 
 ## Welcome!
 
-Hi there! Basil/Cloudy here, and this is my little space on the internet. Here you will be able to find a collection of favourite art of my own, links to my socials and my own blog.
+Hi there! Basil here, and this is my little space on the internet. Here you will be able to find a collection of favourite art of my own, links to my socials and my own blog.
 
 My pronouns are {{< accent >}}she/her{{< /accent >}} or {{< accent >}}they/them{{< /accent >}}.
 

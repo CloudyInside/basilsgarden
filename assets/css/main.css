@@ -19,9 +19,6 @@
 ::-webkit-scrollbar {
 	width: 0px;
 }
-img {
-	image-rendering: pixelated;
-}
 h1,
 h2,
 h3,
@@ -37,7 +34,7 @@ h2 {
 h3 {
 	font-size: 1.5em;
 	margin-top: 0;
-	margin-bottom: 1.5rem;
+	margin-bottom: 1.25rem;
 }
 h4 {
 	text-transform: uppercase;
@@ -230,7 +227,8 @@ main {
 	cursor: url('/img/site/cursor.png'), auto;
 }
 .content__item p {
-	margin-block: 0;
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
 .content__item img {
 	width: 100%;
@@ -253,12 +251,13 @@ main {
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: min-content;
 	grid-auto-flow: row;
 	padding: 0;
 	margin: 0;
 	align-items: center;
 	list-style: none;
-	gap: 0.25rem;
+	gap: 0.5rem;
 	overflow-y: scroll;
 	scrollbar-width: none;
 }
@@ -273,6 +272,22 @@ main {
 	padding: 5px;
 	cursor: url('/img/site/cursor.png'), auto;
 }
+
+.favs {
+	max-height: 300px;
+	grid-template-columns: repeat(4, 1fr);
+	margin-bottom: 1rem;
+	scroll-snap-type: y mandatory;
+}
+
+.favs img {
+	width: 100%;
+	aspect-ratio: unset;
+	box-shadow: inset 0 0 0 2px #fff;
+	background-image: unset;
+	scroll-snap-align: start;
+}
+
 #aboutCont p {
 	margin-top: 0;
 }
@@ -332,6 +347,7 @@ li .li-link {
 	display: flex;
 	object-fit: cover;
 	cursor: url('/img/site/cursor.png'), auto;
+	image-rendering: pixelated;
 }
 .friend-card {
 	box-shadow: 0 0 0 2px #000, 0 0 0 4px #fff;
@@ -545,6 +561,11 @@ audio::-webkit-media-controls-timeline {
 	.gallery {
 		grid-template-columns: repeat(2, 1fr);
 	}
+	.games,
+	.movies {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
 	audio {
 		width: 15rem;
 		height: 2.5rem;
@@ -553,6 +574,7 @@ audio::-webkit-media-controls-timeline {
 	.lan-btn {
 		right: 5px;
 		transform: scale(1.5);
+		image-rendering: pixelated;
 	}
 	.footer-info p {
 		margin-top: 5px;

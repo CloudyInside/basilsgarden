@@ -1,0 +1,5 @@
+<section class="gallery favs">
+    {{ range .Site.Data.games }}
+    <img src="{{ .icon }}" alt="{{ .name }}" title="{{ .name }}" loading="lazy">
+    {{ end }}
+</section>

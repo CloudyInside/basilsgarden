@@ -6,7 +6,7 @@ draft = false
 
 ## ¡Buenas!
 
-Me llamo Basil/Cloudy, y este es mi pequeño rincón de los internetes. Aquí podrás
+Me llamo Basil, y este es mi pequeño rincón de los internetes. Aquí podrás
 encontrar una colección de mi arte favorito propio, enlaces a mis redes y mi propio blog entre
 otras cosas.
 
