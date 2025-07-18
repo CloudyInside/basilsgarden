@@ -55,25 +55,19 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function setGridHeight(grid) {
-	const firstImg = grid.querySelector('img');
-	if (!firstImg) return;
+	const images = grid.querySelectorAll('img');
+	if (images.length === 0) return;
 
-	// Force browser to calculate actual image height
-	const imgHeight = firstImg.getBoundingClientRect().height;
+	// Find the tallest image in this specific grid
+	let maxHeight = 0;
+	images.forEach((img) => {
+		const imgHeight = img.getBoundingClientRect().height;
+		if (imgHeight > maxHeight) maxHeight = imgHeight;
+	});
+
 	const gap = parseFloat(getComputedStyle(grid).gap) || 0;
-	const rowHeight = imgHeight + gap;
-
-	grid.style.maxHeight = `${rowHeight}px`;
-	console.log('Set grid height:', rowHeight, 'px');
-}
-
-function setGridHeight(grid) {
-	const firstImg = grid.querySelector('img');
-	if (!firstImg) return;
-
-	const imgHeight = firstImg.getBoundingClientRect().height;
-	const gap = parseFloat(getComputedStyle(grid).gap) || 0;
-	grid.style.maxHeight = `${imgHeight + gap}px`;
+	grid.style.maxHeight = `${maxHeight + gap}px`;
+	console.log('Set grid height for', grid.id || 'grid', ':', maxHeight + gap, 'px');
 }
 
 function initGrid(grid) {
@@ -86,13 +80,21 @@ function initGrid(grid) {
 	}
 
 	// Otherwise wait for all images to load
+	let loadedCount = 0;
 	images.forEach((img) => {
-		if (!img.complete) {
-			img.addEventListener('load', () => {
-				if ([...images].every((i) => i.complete)) {
-					setGridHeight(grid);
-				}
-			});
+		if (img.complete) {
+			loadedCount++;
+		} else {
+			img.addEventListener(
+				'load',
+				() => {
+					loadedCount++;
+					if (loadedCount === images.length) {
+						setGridHeight(grid);
+					}
+				},
+				{ once: true }
+			);
 		}
 	});
 }
