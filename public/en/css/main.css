@@ -516,10 +516,10 @@ audio::-webkit-media-controls-timeline {
 }
 @media (max-width: 1250px) {
 	.panel {
-		width: 50vw;
+		width: 60vw;
 	}
 }
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
 	.panel {
 		width: 100%;
 	}
@@ -546,10 +546,6 @@ audio::-webkit-media-controls-timeline {
 	}
 }
 @media (max-width: 800px) {
-	body {
-		font-size: 0.8rem;
-		line-height: 0.95rem;
-	}
 	.nav-bar {
 		gap: 0.75em;
 		margin-bottom: 0;
@@ -566,7 +562,6 @@ audio::-webkit-media-controls-timeline {
 	.favs {
 		grid-template-columns: repeat(3, 1fr);
 	}
-
 	audio {
 		width: 15rem;
 		height: 2.5rem;
@@ -583,6 +578,10 @@ audio::-webkit-media-controls-timeline {
 	}
 }
 @media (max-width: 600px) {
+	body {
+		font-size: 0.8rem;
+		line-height: 0.95rem;
+	}
 	main {
 		max-height: 88svh;
 	}

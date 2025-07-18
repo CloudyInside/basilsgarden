@@ -1,35 +1,35 @@
 - name: 'Omori'
-  icon: '/img/games/game.jpg'
+  icon: '/img/games/omori.jpg'
 
 - name: 'Bloodborne'
-  icon: '/img/games/game.jpg'
+  icon: '/img/games/bloodborne.jpg'
 
 - name: 'Hollow Knight'
-  icon: '/img/games/game.jpg'
+  icon: '/img/games/hollow.jpg'
 
 - name: 'Signalis'
-  icon: '/img/games/game.jpg'
+  icon: '/img/games/signalis.jpg'
 
 - name: 'Warframe'
-  icon: '/img/games/game.jpg'
+  icon: '/img/games/warframe.jpg'
 
 - name: 'Pokémon Diamond'
-  icon: '/img/games/game.jpg'
+  icon: '/img/games/pkmn.jpg'
 
 - name: 'Deltarune'
-  icon: '/img/games/game.jpg'
+  icon: '/img/games/deltarune.jpg'
 
 - name: 'Outer Wilds'
-  icon: '/img/games/game.jpg'
+  icon: '/img/games/outer.jpg'
 
 - name: 'Deaths Door'
-  icon: '/img/games/game.jpg'
+  icon: '/img/games/death.jpg'
 
 - name: 'Spiderman: Web of Shadows'
-  icon: '/img/games/game.jpg'
+  icon: '/img/games/spiderman.jpg'
 
 - name: 'Blasphemous'
-  icon: '/img/movies/game.jpg'
+  icon: '/img/movies/blasphemous.jpg'
 
 - name: 'Dread Delusion'
-  icon: '/img/movies/game.jpg'
+  icon: '/img/movies/dread.jpg'
