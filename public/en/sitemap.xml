@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://basilsgarden.netlify.app/about/</loc>
+    <loc>https://basilsgarden.netlify.app/en/about/</loc>
     <lastmod>2025-07-13T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -12,10 +12,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/about/"
+                href="https://basilsgarden.netlify.app/en/about/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/art/</loc>
+    <loc>https://basilsgarden.netlify.app/en/art/</loc>
     <lastmod>2025-07-13T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -25,10 +25,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/art/"
+                href="https://basilsgarden.netlify.app/en/art/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/</loc>
+    <loc>https://basilsgarden.netlify.app/en/</loc>
     <lastmod>2025-07-13T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -38,10 +38,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/"
+                href="https://basilsgarden.netlify.app/en/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/links/</loc>
+    <loc>https://basilsgarden.netlify.app/en/links/</loc>
     <lastmod>2025-07-13T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -51,10 +51,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/links/"
+                href="https://basilsgarden.netlify.app/en/links/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/photos/</loc>
+    <loc>https://basilsgarden.netlify.app/en/photos/</loc>
     <lastmod>2025-07-13T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -64,10 +64,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/photos/"
+                href="https://basilsgarden.netlify.app/en/photos/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/tags/blue/</loc>
+    <loc>https://basilsgarden.netlify.app/en/tags/blue/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -77,10 +77,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/tags/blue/"
+                href="https://basilsgarden.netlify.app/en/tags/blue/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/tags/green/</loc>
+    <loc>https://basilsgarden.netlify.app/en/tags/green/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -90,10 +90,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/tags/green/"
+                href="https://basilsgarden.netlify.app/en/tags/green/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/blog/post-3/</loc>
+    <loc>https://basilsgarden.netlify.app/en/blog/post-3/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -103,10 +103,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/blog/post-3/"
+                href="https://basilsgarden.netlify.app/en/blog/post-3/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/tags/red/</loc>
+    <loc>https://basilsgarden.netlify.app/en/tags/red/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -116,10 +116,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/tags/red/"
+                href="https://basilsgarden.netlify.app/en/tags/red/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/tags/</loc>
+    <loc>https://basilsgarden.netlify.app/en/tags/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -129,10 +129,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/tags/"
+                href="https://basilsgarden.netlify.app/en/tags/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/blog/post-2/</loc>
+    <loc>https://basilsgarden.netlify.app/en/blog/post-2/</loc>
     <lastmod>2023-02-15T10:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -142,10 +142,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/blog/post-2/"
+                href="https://basilsgarden.netlify.app/en/blog/post-2/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/blog/post-1/</loc>
+    <loc>https://basilsgarden.netlify.app/en/blog/post-1/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -155,10 +155,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/blog/post-1/"
+                href="https://basilsgarden.netlify.app/en/blog/post-1/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/blog/</loc>
+    <loc>https://basilsgarden.netlify.app/en/blog/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -168,10 +168,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/blog/"
+                href="https://basilsgarden.netlify.app/en/blog/"
                 />
   </url><url>
-    <loc>https://basilsgarden.netlify.app/categories/</loc>
+    <loc>https://basilsgarden.netlify.app/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
@@ -180,7 +180,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://basilsgarden.netlify.app/categories/"
+                href="https://basilsgarden.netlify.app/en/categories/"
                 />
   </url>
 </urlset>
