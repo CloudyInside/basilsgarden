@@ -1,5 +1,5 @@
 <section class="gallery favs">
     {{ range .Site.Data.movies }}
-    <img src="{{ .icon }}" alt="{{ .name }}" title="{{ .name }}" loading="lazy">
+    <img src="{{ .icon }}" alt="{{ .name }}" title="{{ .name }}" loading="eager">
     {{ end }}
 </section>

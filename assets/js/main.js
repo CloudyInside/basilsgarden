@@ -67,49 +67,62 @@ function setGridHeight(grid) {
 	console.log('Set grid height:', rowHeight, 'px');
 }
 
-// Wait for all images to load
-function initGrids() {
-	document.querySelectorAll('.favs').forEach((grid) => {
-		const images = grid.querySelectorAll('img');
-		let loadedCount = 0;
+function setGridHeight(grid) {
+	const firstImg = grid.querySelector('img');
+	if (!firstImg) return;
 
-		if (images.length === 0) {
-			setGridHeight(grid);
-			return;
-		}
+	const imgHeight = firstImg.getBoundingClientRect().height;
+	const gap = parseFloat(getComputedStyle(grid).gap) || 0;
+	grid.style.maxHeight = `${imgHeight + gap}px`;
+}
 
-		images.forEach((img) => {
-			if (img.complete) {
-				loadedCount++;
-			} else {
-				img.addEventListener('load', () => {
-					loadedCount++;
-					if (loadedCount === images.length) {
-						setGridHeight(grid);
-					}
-				});
-			}
-		});
+function initGrid(grid) {
+	const images = grid.querySelectorAll('img');
 
-		// If all images are already loaded
-		if (loadedCount === images.length) {
-			setGridHeight(grid);
+	// If no images or all images already loaded, set height immediately
+	if (images.length === 0 || [...images].every((img) => img.complete)) {
+		setGridHeight(grid);
+		return;
+	}
+
+	// Otherwise wait for all images to load
+	images.forEach((img) => {
+		if (!img.complete) {
+			img.addEventListener('load', () => {
+				if ([...images].every((i) => i.complete)) {
+					setGridHeight(grid);
+				}
+			});
 		}
 	});
 }
 
-// Run when DOM is ready
-document.addEventListener('DOMContentLoaded', initGrids);
-
-// Optional: Handle responsive changes
-const resizeObserver = new ResizeObserver((entries) => {
-	entries.forEach((entry) => {
-		if (entry.target.classList.contains('favs')) {
-			setGridHeight(entry.target);
-		}
+// Initialize all current grids and watch for new ones
+const observer = new MutationObserver((mutations) => {
+	mutations.forEach((mutation) => {
+		mutation.addedNodes.forEach((node) => {
+			if (node.nodeType === 1) {
+				// Element node
+				if (node.classList.contains('favs')) initGrid(node);
+				node.querySelectorAll?.('.favs').forEach(initGrid);
+			}
+		});
 	});
 });
 
+// Start observing the document for changes
+observer.observe(document.body, {
+	childList: true,
+	subtree: true,
+});
+
+// Also observe for resize events on existing grids
+const resizeObserver = new ResizeObserver((entries) => {
+	entries.forEach((entry) => initGrid(entry.target));
+});
+
+// Initialize existing grids and set up observers
 document.querySelectorAll('.favs').forEach((grid) => {
+	initGrid(grid);
 	resizeObserver.observe(grid);
 });

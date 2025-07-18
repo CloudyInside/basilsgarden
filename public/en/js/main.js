@@ -52,40 +52,48 @@
     grid.style.maxHeight = `${rowHeight}px`;
     console.log("Set grid height:", rowHeight, "px");
   }
-  function initGrids() {
-    document.querySelectorAll(".favs").forEach((grid) => {
-      const images = grid.querySelectorAll("img");
-      let loadedCount = 0;
-      if (images.length === 0) {
-        setGridHeight(grid);
-        return;
-      }
-      images.forEach((img) => {
-        if (img.complete) {
-          loadedCount++;
-        } else {
-          img.addEventListener("load", () => {
-            loadedCount++;
-            if (loadedCount === images.length) {
-              setGridHeight(grid);
-            }
-          });
-        }
-      });
-      if (loadedCount === images.length) {
-        setGridHeight(grid);
+  function setGridHeight(grid) {
+    const firstImg = grid.querySelector("img");
+    if (!firstImg) return;
+    const imgHeight = firstImg.getBoundingClientRect().height;
+    const gap = parseFloat(getComputedStyle(grid).gap) || 0;
+    grid.style.maxHeight = `${imgHeight + gap}px`;
+  }
+  function initGrid(grid) {
+    const images = grid.querySelectorAll("img");
+    if (images.length === 0 || [...images].every((img) => img.complete)) {
+      setGridHeight(grid);
+      return;
+    }
+    images.forEach((img) => {
+      if (!img.complete) {
+        img.addEventListener("load", () => {
+          if ([...images].every((i) => i.complete)) {
+            setGridHeight(grid);
+          }
+        });
       }
     });
   }
-  document.addEventListener("DOMContentLoaded", initGrids);
-  var resizeObserver = new ResizeObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.target.classList.contains("favs")) {
-        setGridHeight(entry.target);
-      }
+  var observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      mutation.addedNodes.forEach((node) => {
+        if (node.nodeType === 1) {
+          if (node.classList.contains("favs")) initGrid(node);
+          node.querySelectorAll?.(".favs").forEach(initGrid);
+        }
+      });
     });
   });
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+  var resizeObserver = new ResizeObserver((entries) => {
+    entries.forEach((entry) => initGrid(entry.target));
+  });
   document.querySelectorAll(".favs").forEach((grid) => {
+    initGrid(grid);
     resizeObserver.observe(grid);
   });
 })();
