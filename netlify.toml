@@ -11,3 +11,7 @@
   status = 301
   force = true
   conditions = {Language = ["es"]}
+
+[build]
+  publish = "public"
+  command = "hugo --gc --cleanDestinationDir"

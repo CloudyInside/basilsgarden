@@ -7,14 +7,9 @@ favicon = '/img/favicon.ico'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
-[[redirects]]
-  from = "/"
-  to = "/en/"
-  status = 301
-
 [languages]
   [languages.en]
-    baseURL = "https://basilsgarden.netlify.app/en/"
+    baseURL = "https://basilsgarden.netlify.app/"
     contentDir = 'content/en'
     languageCode = 'en-US'
     languageName = 'English'
