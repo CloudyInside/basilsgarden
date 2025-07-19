@@ -1,5 +1,9 @@
 :root {
 	--color-accent: rgb(45, 220, 175);
+	--size-nav: 0.8rem;
+	--size-text: 1rem;
+	--size-title: 2rem;
+	--size-subtitle: 1.5rem;
 }
 *,
 * ::before,
@@ -19,31 +23,23 @@
 ::-webkit-scrollbar {
 	width: 0px;
 }
-h1,
-h2,
-h3,
-h4 {
-	margin-block: 0;
-	border-style: none;
-}
 h2 {
-	font-size: 2.25em;
+	font-size: var(--size-title);
 	margin-bottom: 1.25rem;
 	margin-top: 0.25rem;
 }
 h3 {
-	font-size: 1.5em;
+	font-size: var(--size-subtitle);
 	margin-top: 0;
 	margin-bottom: 1.25rem;
 }
 h4 {
 	text-transform: uppercase;
 	font-weight: lighter;
-	font-size: 0.975em;
+	font-size: var(--size-text);
 }
 p {
-	font-weight: lighter;
-	margin-block: 1rem;
+	margin-block: 0.75rem;
 }
 a:link {
 	color: var(--color-accent);
@@ -70,7 +66,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	margin: 0;
-	font-size: 1rem;
+	font-size: var(--size-text);
 	line-height: 1.75rem;
 	font-family: 'Omori-2', system-ui, sans-serif;
 	background-image: url('/img/site/bg.png');
@@ -124,7 +120,7 @@ main {
 	color: #fff;
 	background-color: #000;
 	box-shadow: inset 0 0 0 1px #000, inset 0 0 0 3px #fff;
-	font-size: 0.8em;
+	font-size: var(--size-nav);
 	text-transform: uppercase;
 	cursor: url('/img/site/cursor.png'), auto;
 	border-style: none;
@@ -159,7 +155,7 @@ main {
 	background: none;
 	border: none;
 	align-items: center;
-	font-size: 0.8em;
+	font-size: var(--size-nav);
 	color: gray;
 	-webkit-text-stroke: 1px;
 	cursor: url('/img/site/cursor.png'), auto;
@@ -183,7 +179,6 @@ main {
 	width: 100%;
 	padding: 1rem;
 	justify-content: flex-start;
-	font-size: 1em;
 	background-color: #000;
 	box-shadow: inset 0 0 0 1px #000, inset 0 0 0 3px #fff;
 	overflow-y: hidden;
@@ -210,7 +205,6 @@ main {
 	height: 100%;
 	width: 100%;
 	padding: 1rem;
-	font-size: 1em;
 	background-color: #000;
 	box-shadow: inset 0 0 0 1px #000, inset 0 0 0 3px #fff;
 	overflow: hidden;
@@ -242,7 +236,7 @@ main {
 }
 .blog-stats {
 	margin-top: 5px;
-	font-size: 0.65em;
+	font-size: var(--size-nav);
 }
 .blog-stats img {
 	width: 1rem;
@@ -324,7 +318,6 @@ li .li-link {
 	flex-direction: column;
 }
 .blog-card p {
-	font-size: 1em;
 	margin-block: 0;
 }
 .first {
@@ -408,49 +401,6 @@ footer {
 	flex-wrap: wrap;
 	margin-block: 0;
 	margin-inline: auto;
-}
-audio {
-	margin-left: auto;
-	background-color: #000;
-	border: 2px solid white;
-	outline: 1px solid black;
-	font-family: 'Omori';
-}
-audio::-webkit-media-controls-enclosure {
-	border-radius: 0;
-	background-color: #000;
-	border: 2px solid white;
-	outline: 1px solid black;
-}
-audio::-webkit-media-controls-panel {
-	font-family: 'Omori-2', sans-serif;
-	color: white;
-}
-audio::-webkit-media-controls-current-time-display,
-audio::-webkit-media-controls-time-remaining-display {
-	font-family: 'Omori-2', sans-serif;
-	color: white;
-	line-height: 1.2;
-	position: relative;
-	top: -4px;
-}
-audio::-webkit-media-controls-play-button,
-audio::-webkit-media-controls-mute-button,
-audio::-webkit-media-controls-volume-slider {
-	filter: invert(1);
-}
-audio::-webkit-media-controls-timeline-container {
-	display: flex;
-	align-items: center;
-	height: 100%;
-}
-audio::-webkit-media-controls-timeline {
-	background-color: rgba(255, 255, 255, 1);
-	border-radius: 0;
-	height: 1px;
-	transform: translateY(1px);
-	margin-top: -1px;
-	margin-bottom: -1px;
 }
 #fullscreen {
 	display: none;
@@ -562,11 +512,6 @@ audio::-webkit-media-controls-timeline {
 	.favs {
 		grid-template-columns: repeat(3, 1fr);
 	}
-	audio {
-		width: 15rem;
-		height: 2.5rem;
-		font-size: 0.5rem;
-	}
 	.lan-btn {
 		right: 5px;
 		transform: scale(1.5);
@@ -574,12 +519,17 @@ audio::-webkit-media-controls-timeline {
 	}
 	.footer-info p {
 		margin-top: 5px;
-		font-size: 1em;
 	}
 }
 @media (max-width: 600px) {
+	:root {
+		--color-accent: rgb(45, 220, 175);
+		--size-nav: 0.7rem;
+		--size-text: 0.8rem;
+		--size-title: 1.5rem;
+		--size-subtitle: 1.125rem;
+	}
 	body {
-		font-size: 0.8rem;
 		line-height: 0.95rem;
 	}
 	main {
