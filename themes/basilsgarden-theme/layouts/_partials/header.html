@@ -4,7 +4,7 @@
     {{ $menuUrl := .URL | relLangURL }}
     {{ $isActive := or (eq $currentPage $menuUrl) (and (ne $menuUrl "/") (hasPrefix $currentPage $menuUrl)) }}
     <a href="{{ $menuUrl }}">
-        <button class="nav__btn {{ if $isActive }}active{{ end }}">{{ .Name }}</button>
+        <button class="section-btn {{ if $isActive }}active{{ end }}">{{ .Name }}</button>
     </a>
     {{ end }}
 </nav>
