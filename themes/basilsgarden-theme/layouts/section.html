@@ -1,30 +1,26 @@
 {{ define "main" }}
 {{/* <h1>{{ .Title }}</h1> */}}
-<section class="content-container" id="{{.Title}}Cont">
-  <section class="content__item">
-    {{ range .Pages }}
-    <article class="card blog-card first">
-      <section class="blog-header">
-        <a href="{{ .RelPermalink }}">
-          <h3 class="accent">{{ .LinkTitle }}</h3>
-        </a>
-        <section class="blog-stats">
-          <img src="/img/site/calendar.png" alt="">
-          <span title="Date">{{ .Date.Format "02-01-2006" }}</span>
-          <img src="/img/site/open-book.png" alt="">
-          <span title="WordCount">{{ .WordCount }}</span>
-        </section>
-      </section>
-      <section class="blog-description">
-        <p>
-          {{ .Content | plainify | truncate 100 " ..." }}
-        </p>
-      </section>
-    </article>
-    <hr>
-    {{ end }}
-    {{ .Content }}
+{{ range .Pages }}
+<article class="blog-card first">
+  <section class="blog-header">
+    <a href="{{ .RelPermalink }}">
+      <h3 class="accent">{{ .LinkTitle }}</h3>
+    </a>
+    <section class="blog-stats">
+      <img src="/img/site/calendar.png" alt="">
+      <span title="Date">{{ .Date.Format "02-01-2006" }}</span>
+      <img src="/img/site/open-book.png" alt="">
+      <span title="WordCount">{{ .WordCount }}</span>
+    </section>
   </section>
-</section>
+  <section class="blog-description">
+    <p>
+      {{ .Content | plainify | truncate 100 " ..." }}
+    </p>
+  </section>
+</article>
+<hr>
+{{ end }}
+{{ .Content }}
 {{ end }}
 {{/* <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2> */}}

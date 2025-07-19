@@ -1,6 +1,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<link rel="stylesheet" href="/css/main.css">
+<script src="/js/main.js"></script>
 {{ $css := resources.Get "/css/main.css"}}
 <link rel="stylesheet" href="{{ $css.Permalink | absURL }}">
 {{ $js := resources.Get "/js/main.js"}}

@@ -1,11 +1,8 @@
 {{ define "main" }}
-<section class="info-section" id="infoSection">
-  <section class="info__item">
-    {{ .Content }}
-    {{/* {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-    {{ end }} */}}
-  </section>
-</section>
+{{ .Content }}
 {{ end }}
+
+{{/* {{ range site.RegularPages }}
+<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+{{ .Summary }}
+{{ end }} */}}
