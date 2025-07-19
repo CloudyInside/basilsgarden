@@ -417,7 +417,7 @@ footer {
 		grid-template-columns: repeat(2, 1fr);
 	}
 	.favs {
-		grid-template-columns: repeat(3, 1fr);
+		--nb-cols: 3;
 	}
 	.lan-btn {
 		right: 5px;
