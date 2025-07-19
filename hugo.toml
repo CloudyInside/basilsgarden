@@ -4,6 +4,8 @@ title = "Basil's Garden"
 theme = 'basilsgarden-theme'
 favicon = '/img/favicon.ico'
 
+assetDir = "assets"
+
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 

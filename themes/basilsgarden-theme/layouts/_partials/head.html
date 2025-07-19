@@ -1,8 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
-<link rel="stylesheet" href="/css/main.css" crossorigin="anonymous">
-<script src="/js/main.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/main.css">
+{{ $css := resources.Get "css/main.css"}}
+<link rel="stylesheet" href="{{ $css.Permalink | absURL }}">
+{{ $js := resources.Get "js/main.js"}}
+<script src="{{ $css.Permalink | absURL }}"></script>
 <link rel="icon" type="image/x-icon" href="{{ `favicon.ico` | relURL }}">
 <link rel="preload" href="/img/bg.png" as="image">
 <link rel="preload" href="/img/door_open.png" as="image">
