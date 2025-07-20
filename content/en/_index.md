@@ -16,7 +16,7 @@ If you are here because I met you in a con or scanned my card's QR code and you 
 
 ---
 
-This site is divided in several sections. They can accessed through the upper navigation or right here:
+This site is divided in several sections. They can be accessed through the upper navigation or right here:
 
 -   [About:](/about)  More personal facts, stuff I spend my time on or things I would like to get involved in.
 -   [Blog:](/blog)  Articles about the many things I enjoy, life updates or random ramblings.
