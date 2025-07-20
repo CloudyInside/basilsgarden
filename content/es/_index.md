@@ -20,8 +20,8 @@ Si has llegado aquí porque nos vimos en una convención o escaneaste el QR de m
 
 Este sitio está dividido en unas pocas secciones, las cuales se pueden acceder a través de la navegación superior o desde aquí:
 
--   [Acerca:](/about)  Datos más personales sobre mí y que hago con mi vida.
--   [Blog:](/blog)  Artículos sobre cosas en las que estoy interesada o me ha dado el venazo.
--   [Fotos:](/photos)  Una colección de fotos cucas tomadas por servidora.
--   [Arte:](/art)  Arte Digital y Tradicional que hago de uvas a peras.
--   [Links:](/links)  Un puñado de sitios donde puedes encontrarme.
+-   [Acerca:](/es/about)  Datos más personales sobre mí y que hago con mi vida.
+-   [Blog:](/es/blog)  Artículos sobre cosas en las que estoy interesada o me ha dado el venazo.
+-   [Fotos:](/es/photos)  Una colección de fotos cucas tomadas por servidora.
+-   [Arte:](/es/art)  Arte Digital y Tradicional que hago de uvas a peras.
+-   [Links:](/es/links)  Un puñado de sitios donde puedes encontrarme.

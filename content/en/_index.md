@@ -18,8 +18,8 @@ If you are here because I met you in a con or scanned my card's QR code and you 
 
 This site is divided in several sections. They can be accessed through the upper navigation or right here:
 
--   [About:](/about)  More personal facts, stuff I spend my time on or things I would like to get involved in.
--   [Blog:](/blog)  Articles about the many things I enjoy, life updates or random ramblings.
--   [Photos:](/photos)  A collection of my favourite pics taken by yours truly.
--   [Art:](/art)  Digital and traditional art I make every once in a blue moon.
--   [Links:](/links)  An assortment of sites where you can reach me.
+-   [About:](/en/about)  More personal facts, stuff I spend my time on or things I would like to get involved in.
+-   [Blog:](/en/blog)  Articles about the many things I enjoy, life updates or random ramblings.
+-   [Photos:](/en/photos)  A collection of my favourite pics taken by yours truly.
+-   [Art:](/en/art)  Digital and traditional art I make every once in a blue moon.
+-   [Links:](/en/links)  An assortment of sites where you can reach me.

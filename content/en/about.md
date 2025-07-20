@@ -39,4 +39,4 @@ Daft Punk, Queen, Yuji Ohno, Jimi Hendrix, John Coltrane, Miles Davis, James Bro
 
 #### SSG
 
--   [HUGO](/https://gohugo.io/), The static site generator.
+-   [HUGO](https://gohugo.io/), The static site generator.
