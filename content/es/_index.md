@@ -25,3 +25,5 @@ Este sitio está dividido en unas pocas secciones, las cuales se pueden acceder 
 -   [Fotos:](/es/photos)  Una colección de fotos cucas tomadas por servidora.
 -   [Arte:](/es/art)  Arte Digital y Tradicional que hago de uvas a peras.
 -   [Links:](/es/links)  Un puñado de sitios donde puedes encontrarme.
+
+Puedes volver al inicio en cualquier momento clickando en la puerta blanca debajo.

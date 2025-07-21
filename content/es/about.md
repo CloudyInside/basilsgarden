@@ -4,33 +4,34 @@ date = 2025-07-13T08:00:00-07:00
 draft = false
 +++
 
-### Bio
+### {{< accent >}} Bio {{< /accent >}}
 
 Hola! Me llamo Basil, también conocida como Cloudy. Soy una estudiante de desarrollo web, amante de la fotografía, cinéfila poser, gremlin profesional y autora andaluza de esta web. Recientemente viviendo en tus paredes.
 
-### Intereses
+### {{< accent >}} Intereses {{< /accent >}}
 
-### General
+### {{< accent >}} General {{< /accent >}}
 
 Fotografía, Ilustración Digital, Hardware PC actual y retro, Reparar Consolas, Auriculares y IEMs, Gundam y Gunpla, Lupin the Third
 
-### Música
+### {{< accent >}} Música {{< /accent >}}
 
 Daft Punk, Queen, Yuji Ohno, Jimi Hendrix, John Coltrane, Miles Davis, James Brown, Toby Fox, Omori, Lena Raine, Estopa, El Kanka, Carlos Viola
 
-### Juegos
+### {{< accent >}} Juegos {{< /accent >}}
 
 {{< games >}}
 
-### Películas
+### {{< accent >}} Películas {{< /accent >}}
 
 {{< movies >}}
 
-### Créditos
+### {{< accent >}} Créditos {{< /accent >}}
 
 #### Fuentes y gráficos
 
--   [OMORI font](https://www.omori-game.com/en) (traducida al español por OrcaWalkthrough) gráficos de las red hands y puerta por el OMOCAT Team.
+-   [OMORI font](https://www.omori-game.com/en) (traducida al español por OrcaWalkthrough) por el OMOCAT Team.
+-   [Red hands](https://www.omori-game.com/en) y [puerta](https://www.omori-game.com/en) por el OMOCAT Team.
 -   [Language flags](https://opengameart.org/users/devurandom) por devurandom.
 
 #### Misc
@@ -39,4 +40,4 @@ Daft Punk, Queen, Yuji Ohno, Jimi Hendrix, John Coltrane, Miles Davis, James Bro
 
 #### SSG
 
--   [HUGO](https://gohugo.io/),  El generador de sitios estáticos.
+-   [HUGO](https://gohugo.io/), el generador de sitios estáticos.

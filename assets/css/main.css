@@ -37,17 +37,15 @@ h2 {
 h3 {
 	font-size: var(--size-subtitle);
 	margin-top: 0;
-	margin-bottom: 1.25rem;
+	margin-bottom: 0.75rem;
 }
 h4 {
 	margin: 0;
-	text-transform: uppercase;
-	font-weight: lighter;
 	font-size: var(--size-text);
 }
 p {
 	margin-top: 0;
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
 }
 a {
 	text-decoration: underline;
@@ -65,13 +63,13 @@ a:visited {
 }
 ul {
 	margin-block: 0;
-	padding-left: 0;
+	padding-left: 2.25rem;
 	list-style: url('/img/site/hand.gif');
-	list-style-position: inside;
+	list-style-position: outside;
 	image-rendering: pixelated;
 }
 li {
-	margin-bottom: 0.75rem;
+	margin-bottom: 0;
 }
 body {
 	color: var(--text-primary-color);
@@ -126,9 +124,9 @@ nav {
 	position: absolute;
 	background: url(/img/site/right-hand.png);
 	top: 30%;
-	left: -1.5em;
-	width: 39px;
-	height: 19px;
+	left: -1rem;
+	width: 29px;
+	height: 14px;
 	background-repeat: no-repeat;
 	background-size: contain;
 	image-rendering: pixelated;
@@ -246,9 +244,13 @@ main {
 	display: inline-block;
 	image-rendering: pixelated;
 }
+.socials-list {
+	margin-top: 1.25rem;
+}
 .socials-list,
 .friends-list {
 	list-style: none;
+	padding-left: 0;
 }
 .social-card {
 	margin-left: 2rem;
@@ -261,6 +263,7 @@ main {
 .social-card h4 {
 	text-transform: unset;
 	margin-left: 4px;
+	font-weight: lighter;
 }
 .friend-card {
 	display: flex;
@@ -394,8 +397,8 @@ footer {
 		width: 100%;
 	}
 	.section-btn.active::before {
-		width: 28px;
-		height: 15px;
+		width: 29px;
+		height: 14px;
 	}
 	.arrow {
 		width: 28px;

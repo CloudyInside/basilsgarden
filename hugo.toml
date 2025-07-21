@@ -11,7 +11,6 @@ defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
-    baseURL = "https://basilsgarden.netlify.app/en/"
     contentDir = 'content/en'
     languageCode = 'en-US'
     languageName = 'English'
@@ -22,6 +21,7 @@ defaultContentLanguageInSubdir = true
       url = "/about/"
       weight = 1
     [[languages.en.menu.main]]
+      contentDir = 'content/'
       name = "Blog"
       url = "/blog/"
       weight = 2
@@ -39,7 +39,6 @@ defaultContentLanguageInSubdir = true
       weight = 5
 
   [languages.es]
-    baseURL = "https://basilsgarden.netlify.app/es/"
     contentDir = 'content/es'
     languageCode = 'es-ES'
     languageName = "Español"
@@ -50,6 +49,7 @@ defaultContentLanguageInSubdir = true
       url = "/about/"
       weight = 1
     [[languages.es.menu.main]]
+      contentDir = 'content/'
       name = "Blog"
       url = "/blog/"
       weight = 2
@@ -65,3 +65,14 @@ defaultContentLanguageInSubdir = true
       name = "Links"
       url = "/links/"
       weight = 5
+
+[module]
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+[static]
+  force = true
