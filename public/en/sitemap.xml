@@ -2,19 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://basilsgarden.netlify.app/en/</loc>
-    <lastmod>2025-07-21T18:03:39+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://basilsgarden.netlify.app/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://basilsgarden.netlify.app/en/"
-                />
-  </url><url>
     <loc>https://basilsgarden.netlify.app/en/blog/post1/</loc>
     <lastmod>2025-07-21T18:03:39+02:00</lastmod>
     <xhtml:link
@@ -52,6 +39,19 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="https://basilsgarden.netlify.app/en/art/"
+                />
+  </url><url>
+    <loc>https://basilsgarden.netlify.app/en/</loc>
+    <lastmod>2025-07-13T08:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://basilsgarden.netlify.app/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://basilsgarden.netlify.app/en/"
                 />
   </url><url>
     <loc>https://basilsgarden.netlify.app/en/links/</loc>
