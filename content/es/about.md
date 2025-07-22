@@ -28,16 +28,16 @@ Daft Punk, Queen, Yuji Ohno, Jimi Hendrix, John Coltrane, Miles Davis, James Bro
 
 ## {{< accent >}} Créditos {{< /accent >}}
 
-### Fuentes y gráficos
+Fuentes y gráficos
 
 -   [OMORI font](https://www.omori-game.com/en) (traducida al español por OrcaWalkthrough) por el OMOCAT Team.
--   [Red hands](https://www.omori-game.com/en) y [puerta](https://www.omori-game.com/en) por el OMOCAT Team.
+-   [Red hand](https://www.omori-game.com/en) y [puerta](https://www.omori-game.com/en) por el OMOCAT Team.
 -   [Language flags](https://opengameart.org/users/devurandom) por devurandom.
 
-### Misc
+Misc
 
 -   [Stage7](https://stage7.net/) me ayudó un montón haciendo troubleshooting para la web :)
 
-### SSG
+SSG
 
 -   [HUGO](https://gohugo.io/), el generador de sitios estáticos.
