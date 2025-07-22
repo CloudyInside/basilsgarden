@@ -4,7 +4,7 @@ date = 2025-07-13T08:00:00-07:00
 draft = false
 +++
 
-## ¡Buenas!
+# ¡Buenas!
 
 Me llamo Basil, y este es mi pequeño rincón de los internetes. Aquí podrás
 encontrar una colección de mi arte favorito propio, enlaces a mis redes y mi propio blog entre
@@ -20,10 +20,12 @@ Si has llegado aquí porque nos vimos en una convención o escaneaste el QR de m
 
 Este sitio está dividido en unas pocas secciones, las cuales se pueden acceder a través de la navegación superior o desde aquí:
 
--   [Acerca:](/es/about)  Datos más personales sobre mí y que hago con mi vida.
--   [Blog:](/es/blog)  Artículos sobre cosas en las que estoy interesada o me ha dado el venazo.
--   [Fotos:](/es/photos)  Una colección de fotos cucas tomadas por servidora.
--   [Arte:](/es/art)  Arte Digital y Tradicional que hago de uvas a peras.
--   [Links:](/es/links)  Un puñado de sitios donde puedes encontrarme.
+-   [Acerca:](/es/about) Datos más personales sobre mí y que hago con mi vida.
+-   [Blog:](/es/blog) Artículos sobre cosas en las que estoy interesada o me ha dado el venazo.
+-   [Fotos:](/es/photos) Una colección de fotos cucas tomadas por servidora.
+-   [Arte:](/es/art) Arte Digital y Tradicional que hago de uvas a peras.
+-   [Links:](/es/links) Un puñado de sitios donde puedes encontrarme.
 
-Puedes volver al inicio en cualquier momento clickando en la puerta blanca debajo.
+---
+
+Puedes volver al {{< accent >}}inicio{{< /accent >}} en cualquier momento clickando en la {{< accent >}}puerta{{< /accent >}} debajo.

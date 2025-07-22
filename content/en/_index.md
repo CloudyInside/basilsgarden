@@ -4,7 +4,7 @@ date = 2025-07-13T08:00:00-07:00
 draft = false
 +++
 
-## Welcome!
+# Welcome!
 
 Hi there! Basil here, and this is my little space on the internet. Here you will be able to find a collection of favourite art of my own, links to my socials and my own blog.
 
@@ -18,10 +18,12 @@ If you are here because I met you in a con or scanned my card's QR code and you 
 
 This site is divided in several sections. They can be accessed through the upper navigation or right here:
 
--   [About:](/en/about)  More personal facts, stuff I spend my time on or things I would like to get involved in.
--   [Blog:](/en/blog)  Articles about the many things I enjoy, life updates or random ramblings.
--   [Photos:](/en/photos)  A collection of my favourite pics taken by yours truly.
--   [Art:](/en/art)  Digital and traditional art I make every once in a blue moon.
--   [Links:](/en/links)  An assortment of sites where you can reach me.
+-   [About:](/en/about) More personal facts, stuff I spend my time on or things I would like to get involved in.
+-   [Blog:](/en/blog) Articles about the many things I enjoy, life updates or random ramblings.
+-   [Photos:](/en/photos) A collection of my favourite pics taken by yours truly.
+-   [Art:](/en/art) Digital and traditional art I make every once in a blue moon.
+-   [Links:](/en/links) An assortment of sites where you can reach me.
 
-You can go back to this home page anytime by clicking the white door at the bottom.
+---
+
+You can go back to this {{< accent >}}home page{{< /accent >}} anytime by clicking the {{< accent >}}white door{{< /accent >}} at the bottom.

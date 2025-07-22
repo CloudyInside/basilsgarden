@@ -6,15 +6,15 @@ draft = false
 
 Aquí puedes encontrar por donde ando en los internetes y algunos links útiles, de herramientas que uso a webs curiosas.
 
-### Mis Redes
+## Mis Redes
 
 {{< socials >}}
 
-### Amigos
+## Amigos
 
 {{< friends >}}
 
-### Cositas Interesantes
+## Cositas Interesantes
 
 -   [Dark Sky Maps:](https://www.darkskymap.com/nightSkyBrightness) Mejores sitios para ver las estrellas.
 -   [Cobalt:](https://cobalt.tools/) Descargas de Video/Audio.

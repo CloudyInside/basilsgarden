@@ -29,18 +29,19 @@
 ::-webkit-scrollbar {
 	width: 0px;
 }
-h2 {
+h1 {
 	font-size: var(--size-title);
 	margin-top: 0;
 	margin-bottom: 1.25rem;
 }
-h3 {
+h2 {
 	font-size: var(--size-subtitle);
 	margin-top: 0;
 	margin-bottom: 0.75rem;
 }
-h4 {
-	margin: 0;
+h3 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
 	font-size: var(--size-text);
 }
 p {
@@ -63,13 +64,13 @@ a:visited {
 }
 ul {
 	margin-block: 0;
-	padding-left: 2.25rem;
-	list-style: url('/img/site/hand.gif');
+	padding-left: 1.5rem;
+	list-style-type: square;
 	list-style-position: outside;
 	image-rendering: pixelated;
 }
 li {
-	margin-bottom: 0;
+	margin-bottom: 0.5rem;
 }
 body {
 	color: var(--text-primary-color);
@@ -253,14 +254,14 @@ main {
 	padding-left: 0;
 }
 .social-card {
-	margin-left: 2rem;
+	margin-left: 1.5rem;
 	margin-bottom: 1rem;
 	max-width: fit-content;
 	display: flex;
 	flex-direction: row;
 	flex-shrink: 1;
 }
-.social-card h4 {
+.social-card h3 {
 	text-transform: unset;
 	margin-left: 4px;
 	font-weight: lighter;
@@ -271,7 +272,7 @@ main {
 	box-shadow: 0 0 0 2px #000, 0 0 0 4px #fff;
 	max-width: fit-content;
 	background-color: var(--bg-secondary-color);
-	margin-left: 2rem;
+	margin-left: 1.5rem;
 	margin-block: 1.5rem;
 }
 .friend-card img {
@@ -435,7 +436,7 @@ footer {
 		--size-text: 0.8rem;
 		--size-title: 1.5rem;
 		--size-subtitle: 1.125rem;
-		--line-height: 1rem;
+		--line-height: 1.25rem;
 	}
 	body {
 		line-height: var(--line-height);
@@ -448,6 +449,9 @@ footer {
 		right: 18px;
 		top: unset;
 		bottom: 18px;
+	}
+	.social-card {
+		margin-bottom: 0;
 	}
 	.social-card img {
 		position: relative;

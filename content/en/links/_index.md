@@ -6,15 +6,15 @@ draft = false
 
 Here's where you can find me, my friends' pages and also some links that you may like, from useful or fun tools to stuff I'm interested in.
 
-### My Socials
+## My Socials
 
 {{< socials >}}
 
-### Friends
+## Friends
 
 {{< friends >}}
 
-### Interesting Stuff
+## Interesting Stuff
 
 -   [Dark Sky Maps:](https://www.darkskymap.com/nightSkyBrightness) Best Locations for Stargazing.
 -   [Cobalt:](https://cobalt.tools/) Video/Audio Downloads.
