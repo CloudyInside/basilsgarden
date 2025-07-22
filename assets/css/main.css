@@ -263,6 +263,7 @@ main {
 	flex-shrink: 1;
 }
 .social-card h3 {
+	font-size: var(--size-text);
 	text-transform: unset;
 	margin-left: 4px;
 	font-weight: lighter;
